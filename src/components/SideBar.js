@@ -11,9 +11,12 @@ const HeadH1 = styled.h1`
 
 const SideBar =()=>{
     return(
+        
         <SideHeading>
+        <h1>Logo</h1>
             <HeadH1>This is me</HeadH1>
         </SideHeading>
+        
     )
 }
 

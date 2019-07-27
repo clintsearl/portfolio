@@ -4,16 +4,16 @@ import './App.scss'
 import Home from './components/Home'
 import AboutMe from './components/AboutMe';
 import NoPage from './components/NoPage';
-import SideBar from './components/SideBar';
+// import SideBar from './components/SideBar';
 
 function App() {
   return (
     
-    <BrowserRouter>
-      <SideBar/>
+    <BrowserRouter id='everything'>
+      {/* <SideBar id='header'/> */}
       <Switch>
         <Route exact path="/" component={Home}/>
-        <Route path="/AboutMe" component={AboutMe}/>
+        <Route path="/aboutme" component={AboutMe}/>
         <Route component={NoPage}/>
     </Switch>
     </BrowserRouter>
