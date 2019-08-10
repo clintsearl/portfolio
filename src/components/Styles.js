@@ -19,3 +19,27 @@ export const Wrapper = styled.div`
     justify-content: flex-end;
     
 `
+
+// Resume page
+export const RDate = styled.p`
+    align-content:right;
+
+`
+export const RDescription = styled.p`
+    padding:0 3%;
+
+`
+export const RHeading = styled.h1`
+
+`
+export const RSubHead = styled.h2`
+
+`
+export const RTitle = styled.h3`
+
+`
+export const RWrapper = styled.main`
+    display:grid;
+    align-content: start;
+    text-align:left;
+`
