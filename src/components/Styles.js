@@ -22,6 +22,7 @@ export const Wrapper = styled.div`
 
 // Resume page
 export const RDate = styled.p`
+    /* display:flex; */
     align-content:right;
 
 `
@@ -30,16 +31,19 @@ export const RDescription = styled.p`
 
 `
 export const RHeading = styled.h1`
-
+ /* display:flex; */
+ justify-content: flex-start;
+ align-content:left;
+ text-align:left;
 `
 export const RSubHead = styled.h2`
-
+/* display:flex; */
 `
 export const RTitle = styled.h3`
+/* display:flex; */
 
 `
-export const RWrapper = styled.main`
-    display:grid;
-    align-content: start;
-    text-align:left;
+export const RWrapper = styled.div`
+   margin:4%;
+
 `
