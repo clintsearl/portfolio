@@ -1,8 +1,9 @@
 import React from 'react'
 import {RDate, RDescription, RHeading, RSubHead, RTitle, RWrapper} from './Styles'
+import '../App.scss'
 const AboutMe =()=>{
     return(
-        <RWrapper>
+        <main className="resume">
     <h1>Little Bit About Me</h1>
     <h2>Skills</h2>
     <ul>
@@ -54,7 +55,7 @@ React | Node | Express | MongoDB
 <RDate>June 2006 – July 2013</RDate>
 <RDescription>Bachelor of Science Emphasis in Human Biology and Minor in Chemistry</RDescription>
 
-    </RWrapper>
+    </main>
     )
 }
 

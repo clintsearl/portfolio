@@ -14,7 +14,12 @@ const SideBar =()=>{
         
         <SideHeading>
         <h1>Logo</h1>
-            <HeadH1>This is me</HeadH1>
+            <ul className="nav">
+            <li><a href="/">Home</a></li>
+                <li><a href="/resume">Resume</a></li>
+                <li><a href="/aboutme">About Me</a></li>
+            </ul>
+            
         </SideHeading>
         
     )

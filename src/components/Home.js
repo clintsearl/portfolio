@@ -13,8 +13,9 @@ const Home =()=>{
         data-aos-easing="ease-in-sine"/> */}
             <SideBar/>
         <main>
-            <h1>Hello from Home</h1>
-        
+            <h1>Clint Earl</h1>
+            <p>Full Stack Developer</p>
+            <p>Welcome to my portfolio. Explore and see some of the projects I've done.</p>
         </main>
         </>
     )

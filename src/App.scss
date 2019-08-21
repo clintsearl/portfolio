@@ -28,3 +28,27 @@ img{
   width:auto;
   
 }
+
+
+.nav {  
+  padding:15px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3em;
+  a{
+    color:rgb(211, 183, 58);
+    text-decoration: none;
+  }
+}
+
+//Resume Page
+.resume{
+  text-align: left;
+  // margin:auto, 30vh;
+  background-color: aqua;
+  margin-left:10vw;
+
+}
