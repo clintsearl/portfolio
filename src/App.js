@@ -4,6 +4,7 @@ import './App.scss'
 import Home from './components/Home'
 import AboutMe from './components/AboutMe';
 import NoPage from './components/NoPage';
+import Resume from './components/Resume';
 // import SideBar from './components/SideBar';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/aboutme" component={AboutMe}/>
+        <Route path="/resume" component={Resume}/>
         <Route component={NoPage}/>
     </Switch>
     </BrowserRouter>
