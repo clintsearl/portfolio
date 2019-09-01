@@ -13,7 +13,7 @@ const SideBar =()=>{
     return(
         
         <SideHeading>
-        <h1>Logo</h1>
+        
             <ul className="nav">
             <li><a href="/">Home</a></li>
                 <li><a href="/resume">Resume</a></li>

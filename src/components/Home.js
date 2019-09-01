@@ -3,6 +3,7 @@ import {Wrapper} from './Styles'
 import '../App.scss'
 import Me from '../assets/images/me-outside.jpg'
 import SideBar from './SideBar';
+import Gallery from './Gallery'
 
 const Home =()=>{
     return(
@@ -15,7 +16,10 @@ const Home =()=>{
         <main>
             <h1>Clint Earl</h1>
             <p>Full Stack Developer</p>
-            <p>Welcome to my portfolio. Explore and see some of the projects I've done.</p>
+            <p>Welcome to my portfolio. Scroll down and explore some of the projects I've done.</p>
+
+            <Gallery/>
+
         </main>
         </>
     )

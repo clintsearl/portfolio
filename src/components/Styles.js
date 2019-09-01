@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import tree from '../assets/images/treebg.jpg'
-
+import me from '../assets/images/forest.jpg'
 export const Wrapper = styled.div`
     padding-left:5%;
     margin-left:30vw;
@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
     `
     export const SideHeading = styled.div`
     /* background-color:#003f3f; */
-    background-image: url(${tree});
+    background-image: url(${me});
     background-position: right;
     background-size: cover;
     width:40vw;
