@@ -1,13 +1,14 @@
 import React from 'react'
 import '../App.scss'
-import '../App.scss'
+
+
 
 
 const items =[
     {
         name: "Hiking Database",
         url: "https://hiking-gear.herokuapp.com/",
-        discription:"",
+        discription:"This is a full stack app ",
         photo:"",
         urlcode:""
     },
@@ -40,11 +41,12 @@ const Gallery =()=>{
         <div className="gallery">
             <h1>Projects</h1>
             {items.map((item, number)=>
-               ( <div key= {number}><a href={item.url}>
+               ( <div className="project" key= {number}>
                    <h2> {item.name}</h2>
                    <img src={item.photo}></img>
+                   <p>{item.discription}</p>
                    <button href={item.urlcode}>Code</button>
-                   </a>
+                   
                 </div>)
             )
         }        

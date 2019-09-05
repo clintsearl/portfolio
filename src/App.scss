@@ -56,5 +56,17 @@ img{
 #gallery{
   margin-left:40vw;
   text-align: left;
-  
+  width:100vw;
+}
+
+#project{
+  width:100%;
+  background-color:rgb(224, 1, 1);
+ p{
+  align-self: flex-end
+ }
+  color:red;
+  img{
+   justify-content: flex-start; 
+  }
 }
